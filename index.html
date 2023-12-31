@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Vieira</title>
+    <!--CSS External File-->
+    <link rel="stylesheet" href="style.css">
+    <!--JavaScript External File-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            
+            <a href="index.html">
+                <span class="first-name">maria</span>vieira
+            </a>
+            
+            <!--
+            <a href="index.html"><img src="images/logo.svg" alt="logo" height="30px"></a>
+            -->
+        </div>
+
+        <button id="btn" class="toggle-theme">
+            <img class="svg-icon" src="images/icon-sun.svg" alt="sun" height="25px">
+            <span class="current-theme">Light mode</span>
+        </button>
+        
+    </header>
+
+    <div class="floating-nav-container">
+        <nav>
+            <ul class="nav-options">
+                <li class="active">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg>
+
+                    <a href="index.html">Home</a>
+                </li>
+                
+                <li>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path></svg>
+
+                    <a href="#aboutMe">About Me</a>
+                </li>
+
+                <li>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z"></path><path d="M8 6h9v2H8z"></path></svg>
+
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"></path><path d="M7 9h10v2H7zm0 4h7v2H7z"></path></svg>
+
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="hero">
+            <p class="quote-author">
+                <!--
+                <q class="quote">I saw the angel in the marble and carved until I set him free</q>
+                <br>
+                <span class="author">by Michelangelo</span>
+                -->
+                <q class="main-quote">How do you comfort a JavaScript bug? You console it!</q>
+                <br>
+                <span class="author">My name is Maria and I'm a Frontend Developer</span>
+            </p>
+
+            <div class="buttons">
+                <a class="send-email" href="mailto:mariaribeirovieira@ua.pt">Get in touch</a>
+                <a class="download-resume" href="MariaVieira_cv_2610.pdf" download>Download CV</a>
+            </div>
+            <!--
+            <div class="social-media">
+                <a href="https://github.com/mvieira1" target="_blank"><img src="images/github-icon.svg" alt="github"></a>
+                <a href="www.linkedin.com/in/maria-v-1b735a291" target="_blank"><img src="images/linkedin-icon.svg" alt="linkedin"></a>
+            </div>
+            -->
+        </section>
+
+        <section class="about-me" id="aboutMe">
+            
+            <div class="title">
+                <h1>About me</h1>
+                <span class="quote">I saw the Angel in the marble and carved until I set him free</span>
+            </div>
+
+            <div class="flex-containers">
+                <div class="left-container">
+                    <p>
+                        console.log("Hello, world!");<br><br>
+                        My name is Maria, like 90% of the Portuguese women!<br>
+                        I took a Bachelor’s degree in Biotechnology, but I came to the conclusion that it was not the right path for me and I’ve been redirecting my career since then.<br><br>
+                        I decided to enroll in a Bioinformatics Master’s with the goal of acquiring enough computer science skills to transition to an Informatics Engineering course, but I lost my scholarship and I had to find other ways to "make it".<br> That’s when I started to learn by myself. After several months of serious dedication (and 256 motivational quotes later), I landed my first job in tech, as a Frontend Developer!<br><br>
+                        Currently, I have solid knowledge in <span class="bold">HTML</span>, <span class="bold">CSS</span> and vanilla <span class="bold">JavaScript ES6+</span>.
+                        Professionally, I worked with <span class="bold">TypeScript</span> and <span class="bold">Angular</span>. My long term goal is to build end-to-end applications and become a <span class="bold">Full Stack Developer</span>.
+                        <br><br> 
+                        Coding is my real passion. It is what motivates me to get up in the morning and what keeps me in a flow state during the day.
+                    </p>
+                </div>
+                <!--Resumir este texto e adicionar hobbies-->
+                
+                <div class="right-container">
+                    <img src="images/eu.jpeg" alt="picture of myself">
+                </div>
+
+                <!--Um carrossel de fotos-->
+
+            </div>
+            
+        
+        </section>
+
+        <!--
+        <section class="education-timeline">
+            <h1>Education Timeline</h1>
+            
+        </section>
+        -->
+
+        <section class="projects" id="projects">
+            <div class="title">
+                <h1>Projects</h1>
+                <span class="quote">Passion and perseverance are the key to achieving any goal</span>
+            </div>
+
+            <div class="projects-container">
+                
+                <div class="card rest-api">
+                    <!--
+                    <div class="project-description">-->
+                        <h3>Rest Countries API</h3>
+                        <!--
+                        <ul>
+                            <li>See all countries from the API on the homepage</li>
+                            <li>Search for a country using an input field</li>
+                            <li>Filter countries by region</li>
+                            <li>Click on a country to see more detailed information on a separate page</li>
+                            <li>Click through to the border countries on the detail page</li>
+                            <li>Toggle the color scheme between light and dark mode</li>    
+                        </ul>
+                        --><!--
+                    </div>-->
+                    
+                    <div class="project-image">
+                        
+                    </div>
+
+                    <div class="bottom-cta">
+                        <a href="https://github.com/mvieira1/Rest-Countries-API__Advanced" target="_blank" class="github-btn">Code</a>
+                        <a href="https://mvieira1.github.io/Rest-Countries-API__Advanced/" target="_blank" class="live-btn">Live</a>
+                    </div>
+                   
+                </div>
+
+               
+
+                <div class="card todo-app">
+                    <!--
+                    <div class="project-description"> -->
+                        <h3>ToDo App</h3>
+                        <!--
+                        <ul>
+                            <li>View the optimal layout for the app depending on their device's screen size</li>
+                            <li>See hover states for all interactive elements on the page</li>
+                            <li>Add new todos to the list</li>
+                            <li>Mark todos as complete</li>
+                            <li>Delete todos from the list</li>
+                            <li>Filter by all/active/complete todos</li>
+                            <li>Clear all completed todos</li>
+                            <li>Toggle light and dark mode</li>
+                        </ul>
+                        --> <!--
+                    </div> -->
+
+                    <div class="project-image">
+                        <!--Coloquei dentro de um div pq vou adicionar a imagem como background, para poder alterá-la, consoante o theme (dark/light)-->
+                    </div>
+
+                    <div class="bottom-cta">
+                        <a href="https://github.com/mvieira1/Todo-App__Intermediate" target="_blank" class="github-btn">Code</a>
+                        <a href="https://mvieira1.github.io/Todo-App__Intermediate/" target="_blank" class="live-btn">Live</a>
+                    </div>
+                </div>
+
+                <div class="card pomodoro-app">
+                    
+                    <h3>Pomodoro App</h3>
+                    
+                    <!--
+                        <ul>
+                            <li>Set a Pomodoro timer and short & long break timers (x-minutes stretches of focused work broken by y-minute breaks. Longer breaks are taken after four consecutive work intervals (pomodoro))</li>
+                            <li>Customize how long each timer runs for</li>
+                            <li>See a circular progress bar that updates every minute and represents how far through their timer they are</li>
+                            <li>Customize the appearance of the app with the ability to set preferences for colors and fonts</li>    
+                            <li>View the optimal layout for the site depending on their device's screen size</li>
+                        </ul>
+                    -->
+
+                    <div class="project-image">
+
+                    </div>
+
+                    <div class="bottom-cta">
+                        <a href="https://github.com/mvieira1/Pomodoro-App__Advanced" target="_blank" class="github-btn">Code</a>
+                        <a href="https://mvieira1.github.io/Pomodoro-App__Advanced/" target="_blank" class="live-btn">Live</a>
+                    </div>
+                </div>
+
+                <div class="card e-commerce">
+                    <!--
+                    <div class="project-description">-->
+                        <h3>E-Commerce Product Page</h3>
+                    <!--    
+                    </div>-->
+                    <!--
+                    <ul>
+                        <li>View the optimal layout for the site depending on their device's screen size</li>
+                        <li>See hover states for all interactive elements on the page</li>
+                        <li>Open a lightbox gallery by clicking on the large product image</li>
+                        <li>Switch the large product image by clicking on the small thumbnail images</li>
+                        <li>Switch the product image to the next or previous on, by clicking on the buttons</li>
+                        <li>Add items to the cart</li>
+                        <li>View the cart and remove items from it</li>
+                    </ul>
+                    -->
+                    <div class="project-image">
+
+                    </div>
+
+                    <div class="bottom-cta">
+                        <a href="https://github.com/mvieira1/E-Commerce-Product-Page__Intermediate" target="_blank" class="github-btn">Code</a>
+                        <a href="https://mvieira1.github.io/E-Commerce-Product-Page__Intermediate/" target="_blank" class="live-btn">Live</a>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+
+            <div class="title">
+                <h1>Contact me</h1>
+                <span class="quote">Life is too short for missed connections</span>
+            </div>
+
+            <!--Não está a funcionar. Ver se funciona live-->
+            <form action="https://formsubmit.co/mariaribeirovieira@ua.pt" method="post" enctype="text/plain">
+                
+                <div class="form-top">
+                    <label for="name">
+                        Name
+                        <input type="text" name="name" id="name" placeholder="Jane Doe" required>
+                    </label>
+                    
+                    <label for="email">
+                        E-mail
+                        <input type="email" name="email" id="email" placeholder="jane_doe@gmail.com" required>  
+                    </label>
+                </div>
+                
+                <div class="form-bottom">
+                    <label for="message">
+                        Message
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Hi! I have an open position for you! I want to build a website for my personal brand!" required></textarea>
+                    </label>    
+                </div>
+               
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+       
+
+</body>
+
+</html>
